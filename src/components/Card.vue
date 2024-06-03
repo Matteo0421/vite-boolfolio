@@ -1,43 +1,34 @@
 <script>
-  export default {
-    props: {
+export default {
+  props: {
 
-      title: String,
-      description: String,
-      image: String
+    title: String,
+    description: String,
+    image: String
 
-    }
-    
   }
+
+}
 </script>
 
 
 <template>
-  <div class="col ">
-    <div class="card border-0" style="width: 18rem;">
-      <img :src="image" class="card-img-top rounded-circle hover-effect" :alt="title">
-      <div class="card-body">
-      <h5 class="card-title">{{ title }}</h5> 
-      <p class="card-text">{{ description }}</p>
-  </div>
+  <div class="card overflow-hidden shadow rounded-4 border-0 mb-5">
+    <div class="card-body p-0">
+      <div class="d-flex align-items-center">
+        <div class="p-5">
+          <h2 class="fw-bolder">{{title}}</h2>
+          <p>
+            {{ description }}
+          </p>
+        </div>
+        <img :src="image" class="card-img-top rounded-circle hover-effect" :alt="title">
+      </div>
     </div>
   </div>
 </template>
 
 
 
-<style lang="scss" scoped>
-  .card{
-    background-color: transparent;
-  }img{
-    width: 90%;
-    margin: auto;
-  }.hover-effect {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  &:hover{
-    transform: translateY(-5px); 
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.5);
-  }
-}
-</style>
 
+<style lang="scss" scoped></style>
