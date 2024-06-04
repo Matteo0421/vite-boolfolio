@@ -3,11 +3,13 @@ import axios from 'axios';
 import { store } from './data/store';
 import Card from './components/Card.vue'
 import Header from './components/Header.vue'
+import Head from './components/Head.vue'
 
   export default {
     components:{
       Card,
-      Header
+      Header,
+      Head
     },
 
   }
@@ -15,6 +17,7 @@ import Header from './components/Header.vue'
 
 <template>
   <div>
+    <Head/>
     <Header/>
     <router-view></router-view>
    
