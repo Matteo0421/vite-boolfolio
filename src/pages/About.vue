@@ -12,14 +12,14 @@
 
           <!-- Education Section-->
           <section>
-            <h2 class="text-secondary fw-bolder mb-4">Education</h2>
+            <h2 class="text-danger  fw-bolder mb-4">Education</h2>
             <!-- Education Card 1-->
             <div class="card shadow border-0 rounded-4 mb-5">
               <div class="card-body p-5">
                 <div class="row align-items-center gx-5">
                   <div class="col text-center text-lg-start mb-4 mb-lg-0">
                     <div class="bg-light p-4 rounded-4">
-                      <div class="text-secondary fw-bolder mb-2">2024 </div>
+                      <div class="text-danger fw-bolder mb-2">2024 </div>
                       <div class="mb-2">
                         <div class="small fw-bolder">Boolean</div>
                         <div class="small text-muted">Milano, IT</div>
@@ -43,7 +43,7 @@
                 <div class="row align-items-center gx-5">
                   <div class="col text-center text-lg-start mb-4 mb-lg-0">
                     <div class="bg-light p-4 rounded-4">
-                      <div class="text-secondary fw-bolder mb-2">2017 - 2022</div>
+                      <div class="text-danger fw-bolder mb-2">2017 - 2022</div>
                       <div class="mb-2">
                         <div class="small fw-bolder">istituto Sistemi Informativi Aziendali</div>
                         <div class="small text-muted">Napoli</div>
@@ -71,7 +71,7 @@
                 <!-- Professional skills list-->
                 <div class="mb-5">
                   <div class="d-flex align-items-center mb-4">
-                    <div class="feature bg-primary  text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
+                    <div class="feature bg-danger   text-white rounded-3 me-3"><i class="bi bi-tools"></i></div>
                     <h3 class="fw-bolder mb-0"><span class=" d-inline">Professional Skills</span></h3>
                   </div>
                   <div class="row row-cols-1 row-cols-md-3 mb-4">
@@ -96,7 +96,7 @@
                 <!-- Languages list-->
                 <div class="mb-0">
                   <div class="d-flex align-items-center mb-4">
-                    <div class="feature bg-primary  text-white rounded-3 me-3"><i
+                    <div class="feature bg-danger  text-white rounded-3 me-3"><i
                         class="bi bi-code-slash"></i></div>
                     <h3 class="fw-bolder mb-0"><span class=" d-inline">Languages</span></h3>
                   </div>

@@ -1,10 +1,7 @@
 <script>
 export default {
   props: {
-    project: {
-      type: Object,
-      required: true
-    },
+    project : Object,
     title: String,
     description: String,
     image: String
@@ -17,7 +14,7 @@ export default {
     <div class="card-body p-0">
       <div class="d-flex align-items-center">
         <div class="p-5">
-          <h2 class="fw-bolder">{{ title }}</h2>
+          <h2 class="fw-bolder text-danger">{{ title }}</h2>
           <p>{{ description }}</p>
           <router-link :to="{ name: 'projectDetail', params: { slug: project.slug }}" class="btn btn-outline-dark btn-lg px-4 py-2 fs-5 fw-bolder">
             <i class="fa-solid fa-eye"></i>

@@ -41,9 +41,9 @@
                 Sono Matteo, ho 20 anni ed ho la passione per l'informatica e l'economia, questi sono alcuni dei miei progetti
               </p>
               <div class="d-flex justify-content-center fs-2 gap-4">
-                <a class="" href="#!"><i class="bi bi-twitter"></i></a>
-                <a class="" href="#!"><i class="bi bi-linkedin"></i></a>
-                <a class="" href="#!"><i class="bi bi-github"></i></a>
+                <a class="" href="#!"><i class="text-danger bi-twitter"></i></a>
+                <a class="" href="#!"><i class=" text-danger bi-linkedin"></i></a>
+                <a class="" href="#!"><i class="text-danger bi-github"></i></a>
               </div>
             </div>
           </div>

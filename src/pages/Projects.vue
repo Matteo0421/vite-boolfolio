@@ -69,33 +69,24 @@ export default {
         </div>
         <div v-if="!isLoading" class="row gx-5 justify-content-center">
           <div class="col-lg-11 col-xl-9 col-xxl-8">
-            <Card
-              v-for="project in projects.data"
-              :key="project.id"
-              :title="project.title"
-              :image="project.image"
-              :description="project.description"
-            />
+            <Card v-for="project in projects.data" :project="project" :key="project.id" :title="project.title"
+              :image="project.image" :description="project.description" />
           </div>
         </div>
         <nav v-if="!isLoading" aria-label="Page navigation">
           <ul class="pagination justify-content-center">
             <li class="page-item" :class="{ disabled: currentPage === 1 }">
-              <a class="page-link" href="#" @click.prevent="prevPage">Previous</a>
+              <a class="page-link text-danger bg-transparent" href="#" @click.prevent="prevPage">Previous</a>
             </li>
-            <li
-              v-for="page in lastPage"
-              :key="page"
-              class="page-item"
-              :class="{ active: currentPage === page }"
-            >
-              <a class="page-link" href="#" @click.prevent="goToPage(page)">{{ page }}</a>
+            <li v-for="page in lastPage" :key="page" class="page-item" :class="{ active: currentPage === page }">
+              <a class="page-link text-danger bg-transparent" href="#" @click.prevent="goToPage(page)">{{ page }}</a>
             </li>
             <li class="page-item" :class="{ disabled: currentPage === lastPage }">
-              <a class="page-link" href="#" @click.prevent="nextPage">Next</a>
+              <a class="page-link text-danger bg-transparent" href="#" @click.prevent="nextPage">Next</a>
             </li>
           </ul>
         </nav>
+
       </div>
     </section>
   </div>

@@ -6,11 +6,11 @@
           <div class="small m-0">Copyright &copy; Your Website 2024</div>
         </div>
         <div class="col-auto">
-          <a class="small" href="#!">Privacy</a>
+          <a class="small text-danger" href="#!">Privacy</a>
           <span class="mx-1">&middot;</span>
-          <a class="small" href="#!">Terms</a>
+          <a class="small text-danger" href="#!">Terms</a>
           <span class="mx-1">&middot;</span>
-          <a class="small" href="#!">Contact</a>
+          <a class="small text-danger" href="#!">Contact</a>
         </div>
       </div>
     </div>
